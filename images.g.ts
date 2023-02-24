@@ -3,25 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image2":
-            case "play button":return img`
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
-6 7 7 6 6 7 6 6 6 7 6 6 7 6 7 6 
-6 7 6 7 6 7 6 6 7 6 7 6 7 6 7 6 
-6 7 7 6 6 7 6 6 7 6 7 6 7 7 7 6 
-6 7 6 6 6 7 6 6 7 7 7 6 6 7 6 6 
-6 7 6 6 6 7 6 6 7 6 7 6 6 7 6 6 
-6 7 6 6 6 7 7 6 7 6 7 6 6 7 6 6 
-8 8 8 8 6 6 6 6 6 6 6 6 8 8 8 8 
-6 6 6 6 8 8 8 8 8 8 8 8 6 6 6 6 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-`;
             case "image1":
             case "SAVING HOME":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f
@@ -163,6 +144,25 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 . . . f f f e e f 5 5 f f . . . 
 . . . f f f f f f f f f f . . . 
 . . . . f f . . . f f f . . . . 
+`;
+            case "image2":
+            case "play button":return img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 7 7 7 6 7 6 6 7 7 7 6 7 6 7 6 
+6 7 6 7 6 7 6 6 7 6 7 6 7 6 7 6 
+6 7 7 7 6 7 6 6 7 6 7 6 7 7 7 6 
+6 7 6 6 6 7 6 6 7 7 7 6 6 7 6 6 
+6 7 6 6 6 7 6 6 7 6 7 6 6 7 6 6 
+6 7 6 6 6 7 7 6 7 6 7 6 6 7 6 6 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
 `;
         }
         return null;
