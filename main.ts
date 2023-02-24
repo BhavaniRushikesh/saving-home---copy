@@ -6,7 +6,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     seeds.vy = -150
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.npc1, function (sprite, otherSprite) {
-    game.showLongText("hello cuser we need your help for an vey important thing right now", DialogLayout.Top)
+    game.showLongText("hello cuser we need your help for an very important thing right now", DialogLayout.Top)
     story.showPlayerChoices("ok ", "")
     pause(1000)
     game.showLongText("you need to go to most polluted places on earth killing its purity atmosphere", DialogLayout.Top)
@@ -28,7 +28,7 @@ function LEVEL_CONTROL () {
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . f . . . . . 
+            . . . . . . . . . . f 7 . . . . 
             . . . . . . . . . f 7 f . . . . 
             . . . . . . . . f 7 f . . . . . 
             . . . . . . . f 7 f f . . . . . 

@@ -3,6 +3,44 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
+            case "image3":
+            case "sprite":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . f f e e e e f 2 f . . . . 
+. . f f e e e e f 2 2 2 f . . . 
+. . f e e e f f e e e e f . . . 
+. . f f f f e e 2 2 2 2 e f . . 
+. . f e 2 2 2 f f f f e 2 f . . 
+. f f f f f f f e e e f f f . . 
+. f f e 4 4 e b f 4 4 e e f . . 
+. f e e 4 d 4 1 f d d e f . . . 
+. . f e e e e e d d d f . . . . 
+. . . . f 4 d d e 4 e f . . . . 
+. . . . f e d d e 2 2 f . . . . 
+. . . f f f e e f 5 5 f f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . f f . . . f f f . . . . 
+`;
+            case "image2":
+            case "play button":return img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+6 7 7 7 6 7 6 6 7 7 7 6 7 6 7 6 
+6 7 6 7 6 7 6 6 7 6 7 6 7 6 7 6 
+6 7 7 7 6 7 6 6 7 6 7 6 7 7 7 6 
+6 7 6 6 6 7 6 6 7 7 7 6 6 7 6 6 
+6 7 6 6 6 7 6 6 7 6 7 6 6 7 6 6 
+6 7 6 6 6 7 7 6 7 6 7 6 6 7 6 6 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`;
             case "image1":
             case "SAVING HOME":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1f
@@ -48,12 +86,12 @@ ffffffffffffffffffffffffffffffffffffffffff999bb99666dddd6666666668886888bbbbbbbb
 ffffffffffffffffffffffffffffffffffffffffff99bbbb966696666666666888886888bbbbbbbbbbbbbbbbbbbbbbcbccccccccccc888886fffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffff99bbdbb666969666666668888868888bbbbbbbbbbbbbbbbbbbbccbccccccccccc8888869ffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffff9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999ffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffff9111111111ffff11f11f11111f1fffff1ff111f1ffff1111f111f1fffff1ff111ff1ffff1111111111111119ffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffff9111111111ffff1fff1f11111f1fffff1ff111f1ffff1111f111f1fffff1ff111ff1ffff1111111111111119ffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffff911111111f11111f1f11f111f1111f111f1f11f1f1111111f111f1f111f1fff1fff1f1111111111111111119ffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffff9111111111f1111f1f11f111f1111f111f11f1f1f1111111fffff1f111f1f1f1f1f1fff11111111111111119ffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffff91111111111f111fff111f1f11111f111f111ff1fffff111f111f1f111f1f1fff1f1f1111111111111111119ffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffff911111111111f11f1f111f1f11111f111f1111f1fff1f111f111f1f111f1f11111f1f1111111111111111119ffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffff911111111fffff1f1f1111f1111fffff1f1111f1fff1f111f111f1fffff1f11111f1ffff1111111111111119ffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffff9111111111fff11f1f11f111f1111f111f1f11f1f1111111fffff1f111f1f1f1f1f1ffff1111111111111119ffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffff9111111111111f1fff111f1f11111f111f11f1f1f1fff111f111f1f111f1f1fff1f1f1111111111111111119ffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffff9111111111111f1f1f111f1f11111f111f11f1f1f1f1f111f111f1f111f1f11f11f1f1111111111111111119ffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffff911111111ffff11f1f1111f1111fffff1f111ff1fff1f111f111f1fffff1f11111f1ffff1111111111111119ffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffff9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999ffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffff9dbbbbccbbccccccb666688868888888888888888888888bbbbbccccccccc888888888b9ffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffff9dbbbbbbbbcccccbb66666688888888888888888888888bbbbccccccccccc88888888869ffffffffffffffffffffffffffffffffffffffffffffff
@@ -125,44 +163,6 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`;
-            case "image3":
-            case "sprite":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . f f f f f f . . . . . 
-. . . f f e e e e f 2 f . . . . 
-. . f f e e e e f 2 2 2 f . . . 
-. . f e e e f f e e e e f . . . 
-. . f f f f e e 2 2 2 2 e f . . 
-. . f e 2 2 2 f f f f e 2 f . . 
-. f f f f f f f e e e f f f . . 
-. f f e 4 4 e b f 4 4 e e f . . 
-. f e e 4 d 4 1 f d d e f . . . 
-. . f e e e e e d d d f . . . . 
-. . . . f 4 d d e 4 e f . . . . 
-. . . . f e d d e 2 2 f . . . . 
-. . . f f f e e f 5 5 f f . . . 
-. . . f f f f f f f f f f . . . 
-. . . . f f . . . f f f . . . . 
-`;
-            case "image2":
-            case "play button":return img`
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
-6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
-6 7 7 7 6 7 6 6 7 7 7 6 7 6 7 6 
-6 7 6 7 6 7 6 6 7 6 7 6 7 6 7 6 
-6 7 7 7 6 7 6 6 7 6 7 6 7 7 7 6 
-6 7 6 6 6 7 6 6 7 7 7 6 6 7 6 6 
-6 7 6 6 6 7 6 6 7 6 7 6 6 7 6 6 
-6 7 6 6 6 7 7 6 7 6 7 6 6 7 6 6 
-8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
-f f f f f f f f f f f f f f f f 
 `;
         }
         return null;
