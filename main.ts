@@ -11,11 +11,11 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.npc1, function (sprite, otherSpr
     pause(1000)
     game.showLongText("you need to go to most polluted places on earth killing its purity atmosphere", DialogLayout.Top)
     pause(1000)
-    story.showPlayerChoices("ok ", "")
-    game.showLongText("oh also make sure you collect big seeds on the way then can come in handy", DialogLayout.Top)
+    story.showPlayerChoices("☻k ", "")
+    game.showLongText("Oh also make sure you collect big seeds on the way then can come in handy", DialogLayout.Top)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-    if (play_button == play_button && controller.A.isPressed()) {
+    if (play_button == play_button && controller.anyButton.isPressed()) {
         LEVEL = 1
         LEVEL_CONTROL()
     }
