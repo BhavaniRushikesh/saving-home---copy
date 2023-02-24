@@ -1,0 +1,35 @@
+{
+    "name": "saving home - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "controller": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.21",
+        "tag": "v1.12.21",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/0cb2da5a909e7062f4a7611a9c2d9f35446a3657",
+        "target": "1.12.22",
+        "pxt": "8.5.29",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
