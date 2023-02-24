@@ -15,7 +15,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.npc1, function (sprite, otherSpr
     game.showLongText("oh also make sure you collect big seeds on the way then can come in handy", DialogLayout.Top)
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Player, function (sprite, otherSprite) {
-    if (play_button == play_button && controller.anyButton.isPressed()) {
+    if (play_button == play_button && controller.A.isPressed()) {
         LEVEL = 1
         LEVEL_CONTROL()
     }
